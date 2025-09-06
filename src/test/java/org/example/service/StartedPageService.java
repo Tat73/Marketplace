@@ -2,11 +2,9 @@ package org.example.service;
 
 import org.example.pages.StartedPage;
 
-import java.util.logging.Logger;
 
 public class StartedPageService extends BasePageService {
 
-    public static final Logger log = Logger.getLogger(StartedPageService.class.getName());
     private final StartedPage startedPage = new StartedPage();
 
 

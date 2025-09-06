@@ -3,11 +3,9 @@ package org.example.service;
 import org.example.pages.ResultPage;
 
 import java.util.List;
-import java.util.logging.Logger;
 
 public class ResultPageService extends BasePageService {
 
-    public static final Logger log = Logger.getLogger(ResultPageService.class.getName());
     private ResultPage resultPage = new ResultPage();
 
     public boolean isListEmpty() {

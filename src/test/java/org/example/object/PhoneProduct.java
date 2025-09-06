@@ -6,7 +6,7 @@ import lombok.EqualsAndHashCode;
 import java.util.List;
 
 @Data
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = true)
 public class PhoneProduct extends BaseProduct {
 
     private String size;

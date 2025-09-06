@@ -3,11 +3,9 @@ package org.example.service;
 import org.example.object.PhoneProduct;
 import org.example.pages.ShoppingCartPage;
 
-import java.util.logging.Logger;
 
 public class ShoppingCartPageService extends BasePageService {
 
-    public static final Logger log = Logger.getLogger(ShoppingCartPageService.class.getName());
     private ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
 
     public String getItemNameText() {

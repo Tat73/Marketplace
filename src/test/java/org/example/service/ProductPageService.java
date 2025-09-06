@@ -2,11 +2,9 @@ package org.example.service;
 
 import org.example.pages.ProductPage;
 
-import java.util.logging.Logger;
 
 public class ProductPageService extends BasePageService {
 
-    public static final Logger log = Logger.getLogger(ProductPageService.class.getName());
     private ProductPage productPage = new ProductPage();
 
     public int getQuantityOfItemsInTheCart() {
